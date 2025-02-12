@@ -1,3 +1,4 @@
+
 n = int(input("число n: "))
 d = 1
 u = 0
@@ -27,6 +28,7 @@ while u>=y:
 for i in range(n, 0, -1):
     if 0 >= i // u:
         u /= 10
+        h += r
         r -= 1
         print((' ' * ((n + h) - i)), end='')
     else:
